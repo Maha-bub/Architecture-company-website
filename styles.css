@@ -108,3 +108,42 @@ nav li a{
      }
      
 }
+
+/* main styles */
+main{
+     max-width: 1440px;
+     margin:0 140px;
+}
+
+
+.features-conteiner{
+     display:flex;
+     width: 90%;
+     margin: 0 auto;
+     align-items:center;
+     
+          
+}
+.img-conteiner{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap:1.8rem;
+}
+.featers-content{
+     padding: 0 70px;
+}
+.Quiclist{
+     font-size: 2.5rem;
+     font-weight: 500px;
+     color:  #727272;
+}
+.ofour{
+     font-size: 2.5rem;
+     font-weight: 700px;
+}
+.text-features{
+     font-size:2.5rem;
+     font-weight: 700px;
+     color: #FF900E;;
+
+}
