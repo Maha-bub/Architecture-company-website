@@ -1,0 +1,14 @@
+ /*Using Work sans fonts from google fonts  */
+ *{
+     font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+nav{
+     display: flex;
+     justify-content: space-around;
+}
+.menu {
+     display: flex;
+     gap: 10px;
+     text-decoration: none
+}
