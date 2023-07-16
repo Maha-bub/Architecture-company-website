@@ -199,9 +199,13 @@ main{
           width: 90%;
      }
 
-     
      .img-conteiner{
           grid-template-columns: 1fr;
+     }
+
+     .facts-cart-conteiner{
+          flex-direction: column;
+          gap: 15px;
      }
 }
 @media screen and (min-width:576px) and (max-width:960px){
@@ -210,6 +214,12 @@ main{
      }
      nav,.features-conteiner{   
           flex-direction: column;
+     }
+
+     .facts-cart-conteiner{
+          display: grid;
+          gap: 15px;
+          grid-template-columns:repeat(2,1fr);
      }
      
 }
