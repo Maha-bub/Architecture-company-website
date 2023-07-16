@@ -99,7 +99,7 @@ main{
 
 .features-conteiner{
      display:flex;
-     width: 90%;
+     width: 100%;
      margin: 70px auto;
      align-items:center;
     
@@ -139,6 +139,12 @@ main{
 
 }
 /* facts section */
+
+.facts{
+     width: 100%;
+     text-align: center;
+     margin: 0 auto;
+}
 
 .facts-cart-conteiner{
      display: flex;
