@@ -90,28 +90,9 @@ nav li a{
      cursor: pointer;
 }
 
-/* responsive media query for small device */
-@media screen and (max-width:576px) {
-     header{
-          padding: 20px;
-     }
-     nav{   
-          flex-direction: column;
-     }
-}
-@media screen and (min-width:576px) and (max-width:960px){
-     header{
-          padding: 50px;
-     }
-     nav{   
-          flex-direction: column;
-     }
-     
-}
-
 /* main styles */
 main{
-     max-width: 1440px;
+     max-width: 1920px;
      margin:0 140px;
 }
 
@@ -119,20 +100,20 @@ main{
 .features-conteiner{
      display:flex;
      width: 90%;
-     margin: 0 auto;
+     margin: 70px auto;
      align-items:center;
-     
-          
+    
+    
 }
 .img-conteiner{
      display: grid;
      grid-template-columns: repeat(2,1fr);
      gap:1.8rem;
 }
-.featers-content{
-     padding: 0 70px;
+.featuers-content{
+     padding: 0 60px;
 }
-.Quiclist{
+.Quicklist{
      font-size: 2.5rem;
      font-weight: 500px;
      color:  #727272;
@@ -146,4 +127,40 @@ main{
      font-weight: 700px;
      color: #FF900E;;
 
+}
+
+
+
+
+
+/* responsive media query for small device */
+
+@media screen and (max-width:576px) {
+     header{
+          padding: 20px;
+     }
+     .features-conteiner{
+          padding-left: 0;
+     }
+     nav, .features-conteiner{   
+          flex-direction: column;
+     }
+
+     .banner img{
+          width: 90%;
+     }
+
+     
+     .img-conteiner{
+          grid-template-columns: 1fr;
+     }
+}
+@media screen and (min-width:576px) and (max-width:960px){
+     header{
+          padding: 50px;
+     }
+     nav,.features-conteiner{   
+          flex-direction: column;
+     }
+     
 }
